@@ -1,0 +1,35 @@
+@relation Employee
+@attribute Salary {<10000 , 10000-20000 , >20000 }
+@attribute WorkHours {min , avg , max }
+@attribute Perks { yes , no }
+@attribute Rating { 1,2,3,4,5 }
+@attribute Experience real
+@data 
+%
+<10000 , min , yes , 1 , 1
+<10000 , min , yes , 4 , 8
+<10000 , min , no , 3 , 2
+<10000 , avg , no , 5 , 3
+<10000 , avg , yes , 2 , 4
+<10000 , avg , no , 4 , 6
+<10000 , max , yes , 5 , 4
+
+10000-20000 , min , yes , 1 , 1
+10000-20000 , min , yes , 4 , 8
+10000-20000 , min , no , 3 , 2
+10000-20000 , avg , no , 5 , 3
+10000-20000 , avg , yes , 2 , 4
+10000-20000 , avg , no , 4 , 6
+10000-20000 , max , yes , 5 , 4
+10000-20000 , max , no , 3 , 10
+10000-20000 , max , no , 5 , 1
+
+>20000 , min , yes , 1 , 1
+>20000 , min , yes , 4 , 8
+>20000 , min , no , 3 , 2
+>20000 , avg , no , 5 , 3
+>20000 , avg , yes , 2 , 4
+>20000 , max , yes , 5 , 4
+>20000 , max , no , 3 , 10
+>20000 , max , no , 5 , 1
+%

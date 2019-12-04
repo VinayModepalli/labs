@@ -1,0 +1,23 @@
+@relation Movies
+@attribute Name string
+@attribute Budget real
+@attribute Rating {1,2,3,4,5}
+@attribute Language {english , telugu , hindi }
+@attribute Days integer
+
+@data
+%
+EndGame , 300 , 4 , english , 200
+EndGame , 300 , 5 , telugu , 70
+EndGame , 300 , 4 , hindi , 30
+Baahubali , 170 , 4 , english , 20
+Baahubali , 170 , 5 , telugu , 300
+Baahubali , 170 , 5 , hindi , 60
+Kabali , 100 , 2 , telugu , 15
+Valmiki , 60 , 4 , telugu , 40
+Syera , 100 , 5 , telugu , 60
+Maharshi , 70 , 4 , telugu , 70
+StudentOfTheYear , 130 , 1 , hindi , 30
+PiratesOfTheCarribean , 200 , 4 , english , 40
+
+%
