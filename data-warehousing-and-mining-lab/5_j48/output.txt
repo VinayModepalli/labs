@@ -1,0 +1,52 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -B -M 2
+Relation:     Student
+Instances:    12
+Attributes:   4
+              age
+              income
+              credit_rating
+              buyscomputer
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+age = >20: yes (4.0)
+age != >20: no (8.0/3.0)
+
+Number of Leaves  : 	2
+
+Size of the tree : 	3
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances           6               50      %
+Incorrectly Classified Instances         6               50      %
+Kappa statistic                         -0.0286
+Mean absolute error                      0.43  
+Root mean squared error                  0.5549
+Relative absolute error                 83.8528 %
+Root relative squared error            106.9764 %
+Total Number of Instances               12     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.571    0.600    0.571      0.571    0.571      -0.029   0.629     0.811     yes
+                 0.400    0.429    0.400      0.400    0.400      -0.029   0.629     0.499     no
+Weighted Avg.    0.500    0.529    0.500      0.500    0.500      -0.029   0.629     0.681     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 4 3 | a = yes
+ 3 2 | b = no
+

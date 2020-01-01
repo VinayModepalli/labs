@@ -1,0 +1,23 @@
+@relation Student
+@attribute age  { <10 , 10-20, >20 }
+@attribute income { low , high }
+@attribute credit_rating{ fair, excellent }
+@attribute buyscomputer { yes, no }
+@data
+%
+<10, low, fair, no
+<10, high, fair, yes
+<10, low, excellent, no 
+<10, low, fair, no
+
+10-20, low, excellent, yes
+10-20, low, excellent, yes
+10-20, high, excellent, no 
+10-20, low, fair, no
+
+>20, high, excellent, yes
+>20, high, fair, yes
+>20, low, fair, yes
+>20, high, excellent, yes
+
+%
