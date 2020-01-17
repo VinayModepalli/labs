@@ -9,9 +9,9 @@ public class DVR {
 
     public static void main(String args[]) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Please enter the number of Vertices: ");
+        System.out.print("Please enter the number of Vertices: ");
         v = Integer.parseInt(br.readLine());
-        System.out.println("Please enter the number of Edges: ");
+        System.out.print("Please enter the number of Edges: ");
         e = Integer.parseInt(br.readLine());
         graph = new int[v][v];
         via = new int[v][v];
@@ -37,10 +37,12 @@ public class DVR {
             graph[d][s] = c;
         }
         dvr_calc_disp("The initial Routing Tables are: ");
-        System.out.print("Please  enter  the  Source  Node  for  the  edge  whose  cost  has changed: ");
+        System.out.println("Please  enter  the  Source  ");
+        System.out.println("Node  for the  edge  whose  cost  has changed: ");
         int s = Integer.parseInt(br.readLine());
         s--;
-        System.out.print("Please  enter  the  Destination  Node  for  the  edge  whose  cost  has changed: ");
+        System.out.println("Please  enter  the  Destination  Node");
+        System.out.println("for  the  edge  whose  cost  has changed: ");
         int d = Integer.parseInt(br.readLine());
         d--;
         System.out.print("Please enter the new cost: ");
