@@ -1,0 +1,26 @@
+@relation Employee
+@attribute Salary numeric
+@attribute Perks { yes , no }
+@attribute Performance {bad,fair,excellent}
+@data 
+%
+
+10000,yes,bad
+10000,yes,fair
+10000,yes,excellent
+10000,no,bad
+10000,yes,fair
+30000,yes,fair
+30000,no,fair
+30000,no,bad
+30000,no,fair
+40000,yes,bad
+40000,no,excellent
+40000,yes,fair
+40000,yes,excellent
+20000,no,bad
+20000,yes,bad
+20000,no,bad
+20000,no,fair
+20000,yes,fair
+%

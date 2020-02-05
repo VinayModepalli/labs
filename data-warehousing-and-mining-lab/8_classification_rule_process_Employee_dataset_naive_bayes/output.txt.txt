@@ -1,0 +1,60 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     Employee
+Instances:    18
+Attributes:   3
+              Salary
+              Perks
+              Performance
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                    Class
+Attribute             bad       fair  excellent
+                   (0.38)     (0.43)     (0.19)
+================================================
+Salary
+  mean          21428.5714      23750      30000
+  std. dev.      9897.4332  9921.5674 14142.1356
+  weight sum             7          8          3
+  precision          10000      10000      10000
+
+Perks
+  yes                  4.0        6.0        3.0
+  no                   5.0        4.0        2.0
+  [total]              9.0       10.0        5.0
+
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances           2               11.1111 %
+Incorrectly Classified Instances        16               88.8889 %
+Kappa statistic                         -0.5158
+Mean absolute error                      0.465 
+Root mean squared error                  0.519 
+Relative absolute error                108.0253 %
+Root relative squared error            110.8691 %
+Total Number of Instances               18     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.455    0.000      0.000    0.000      -0.495   0.325     0.328     bad
+                 0.250    1.000    0.167      0.250    0.200      -0.791   0.050     0.298     fair
+                 0.000    0.067    0.000      0.000    0.000      -0.108   0.356     0.190     excellent
+Weighted Avg.    0.111    0.632    0.074      0.111    0.089      -0.562   0.208     0.292     
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 0 7 0 | a = bad
+ 5 2 1 | b = fair
+ 0 3 0 | c = excellent
