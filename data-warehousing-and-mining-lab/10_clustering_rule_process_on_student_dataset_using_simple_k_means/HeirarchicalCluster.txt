@@ -1,0 +1,28 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.HierarchicalClusterer -N 2 -L SINGLE -P -A "weka.core.EuclideanDistance -R first-last"
+Relation:     Student
+Instances:    6
+Attributes:   4
+              Age
+              Income
+              Student
+              CreditRating
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+Cluster 1
+(((2.0:1,2.0:1):0.41421,2.0:1.41421):0,(1.0:1.41421,2.0:1.41421):0)
+
+
+
+Time taken to build model (full training data) : 0 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      1 ( 17%)
+1      5 ( 83%)

@@ -1,0 +1,50 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     Student
+Instances:    6
+Attributes:   4
+              Age
+              Income
+              Student
+              CreditRating
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 3
+Within cluster sum of squared errors: 8.0
+
+Initial starting points (random):
+
+Cluster 0: 30-40,high,no,excellent
+Cluster 1: <30,low,yes,bad
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                          Cluster#
+Attribute      Full Data         0         1
+                   (6.0)     (5.0)     (1.0)
+============================================
+Age                  <30     30-40       <30
+Income            medium    medium       low
+Student              yes        no       yes
+CreditRating   excellent excellent       bad
+
+
+
+
+Time taken to build model (full training data) : 0 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      5 ( 83%)
+1      1 ( 17%)

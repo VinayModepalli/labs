@@ -1,9 +1,11 @@
 import java.util.*;
 import java.math.*;
+
 class RSA
 {
 public static void main(String args[])
 {
+
 Scanner sc=new Scanner(System.in);
 int p,q,n,z,d=0,e,i;
 System.out.println("Enter the number to be Encrypted and decrypted");
