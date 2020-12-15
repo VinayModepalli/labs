@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create Record</title>
+    <style type="text/css">
+        .wrapper {
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        input {
+            padding: 5px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div align="center">
+        <div>
+            <h2>Contact Form</h2>
+        </div>
+        <p>Please fill this form and submit to add employee record to the database.</p>
+        <form action="insert.php" method="post">
+            <div>
+                <label>Name</label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <div>
+                <label>Company Name</label>
+                <input type="text" name="company">
+            </div>
+            <div>
+                <label>Message</label>
+                <input type="text" name="message">
+            </div>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
