@@ -1,0 +1,13 @@
+-- Create DB with name library
+
+CREATE TABLE  `users` (
+
+ `id` INT( 50 ) NOT NULL ,
+ `uname` VARCHAR( 40 ) NOT NULL ,
+ `upassword` VARCHAR( 40 ) NOT NULL
+) ENGINE = INNODB DEFAULT CHARSET = latin1;
+
+INSERT INTO `users` (`id`, `uname`, `upassword`) VALUES (1, 'vinay', 'Asdf@123');
+INSERT INTO `users` (`id`, `uname`, `upassword`) VALUES (2, 'farookh', 'Asdf@123');
+INSERT INTO `users` (`id`, `uname`, `upassword`) VALUES (3, 'silpa', 'Asdf@123');
+INSERT INTO `users` (`id`, `uname`, `upassword`) VALUES (4, 'girish', 'Asdf@123');
