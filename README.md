@@ -2,7 +2,7 @@
 I host all my Academic Lab Experiments here.. 
 
 
-If you find any mistake in amy of them, please feel free to correct them :)
+If you find any mistake in any of them, please feel free to correct them :)
 
 ## [Network Programming Lab](https://github.com/VinayModepalli/labs/tree/master/network-programming-lab)
 ## [Data Warehousing and Mining Lab](https://github.com/VinayModepalli/labs/tree/master/data-warehousing-and-mining-lab)
